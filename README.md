@@ -88,18 +88,13 @@ London, thisislondon, shot, city, ldn, towerbridge, londoneye, Westminster, nott
 
 ## Results 
 
-![image](https://user-images.githubusercontent.com/36000513/118203166-684b9080-b453-11eb-8b46-137d324d3ec6.png)
+![image](https://user-images.githubusercontent.com/36000513/118203323-b8c2ee00-b453-11eb-8c3f-eb3ef6e416e5.png)
 
-![image](https://user-images.githubusercontent.com/36000513/118203173-6b468100-b453-11eb-9a49-ab07c2cc78e0.png)
 
 I have included the results as an extra slide, I created an Instagram page and followed my recommendations. I used the 30 hashtags, posted +4 pictures each day on Friday, Saturday and Sunday. I posted other days as well, but not with the same intensity as on the weekend. 
 I also followed some people, to make it look more genuine and evade Instagram from blocking my account 
 
-![image](https://user-images.githubusercontent.com/36000513/118203209-7dc0ba80-b453-11eb-98cc-f37f4508e2fb.png)
 
-![image](https://user-images.githubusercontent.com/36000513/118203227-84e7c880-b453-11eb-8b82-31772e0ff2f7.png)
-
-![image](https://user-images.githubusercontent.com/36000513/118203232-87e2b900-b453-11eb-8a06-dbf0ca620c38.png)
 
 ![image](https://user-images.githubusercontent.com/36000513/118203287-a34dc400-b453-11eb-9151-520137b24c1b.png)
 
