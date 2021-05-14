@@ -25,7 +25,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-
 nltk.download('punkt')
 lemmatizer = WordNetLemmatizer()
 tokenizer = RegexpTokenizer(r'[a-zA-Z0-9]+')
@@ -34,6 +33,15 @@ tfidf = TfidfVectorizer()
 
 
 def clean_pics(df, words_list):
+        '''
+        deletes words in word list from df['Caption']
+
+        Args:
+            df: dataframe with columns (insta_name, source_image, Caption, Caption_length, follower, num_of_likes, media_type, video_views, num_of_hashtags, num_of_mentions, date, time, target)
+            word_list: array-like of shape (n_samples)
+        Returns:
+            df as a dataframe
+        '''
     for  index, caption in enumerate(df['Caption']):
         for word in words_list:
             if word in caption:
@@ -43,17 +51,42 @@ def clean_pics(df, words_list):
 
 
 def del_mentions(df):
+        '''
+        Drops rows that have more than one mention
+
+        Args:
+            df: dataframe with columns (insta_name, source_image, Caption, Caption_length, follower, num_of_likes, media_type, video_views, num_of_hashtags, num_of_mentions, date, time, target)
+        Returns:
+            df as a dataframe
+        '''
     for index,num_of_hashtags in enumerate(df['num_of_mentions']):
         if num_of_hashtags > 1:
             df.drop(index, inplace = True)
     return df
 
 def get_stopwords():
+        '''
+        loads stopwords and builds a stopword_list
+
+        Args:
+            None
+        Returns:
+            stopwords_list as a list
+        '''
     stopwords_list = stopwords.words('english')
     stopwords_list += list(string.punctuation)
     return stopwords_list
 
 def tokenize_all_captions(df):
+        '''
+        tokenizes all the captions in DF
+
+        Args:
+            df: dataframe with columns (insta_name, source_image, Caption, Caption_length, follower, num_of_likes, media_type, video_views, num_of_hashtags, num_of_mentions, date, time, target)
+
+        Returns:
+            tokenized list as a list
+        '''
     tokenized_list = []
     for i, caption in enumerate(df['Caption']):
         tokenized_caption = tokenizer.tokenize(caption)
@@ -61,6 +94,15 @@ def tokenize_all_captions(df):
     return tokenized_list
 
 def filter_list(tokenized_list, stopwords_list):
+        '''
+        filters all the stopwords from the tokenized list
+
+        Args:
+            tokenized_list: tokenized list
+            stopwords_list: stopwords list
+        Returns:
+            fileterd_captions as a list
+        '''
     filtered_captions=[]
     for w in tokenized_list:
         if w.lower() not in stopwords_list:
@@ -68,6 +110,14 @@ def filter_list(tokenized_list, stopwords_list):
     return filtered_captions
 
 def lemmatize_caption(list):
+        '''
+        lemmatizes the list
+
+        Args:
+            list: list of tokenized words
+        Returns:
+            Lemmatized Output as a list
+        '''
     # creating a list with all lemmatized outputs
     lemmatized_output = []
 
@@ -77,11 +127,28 @@ def lemmatize_caption(list):
     return lemmatized_output
 
 def process_caption(caption):
+        '''
+        tokwnizes the given caption
+
+        Args:
+            Caption: String text
+        Returns:
+            tokenized_caption as a list
+        '''
     tokenized_caption = tokenizer.tokenize(caption)
     return tokenized_caption
 
 
 def vectorized_captions(text_list,df_captions):
+        '''
+        vectorizes the caption
+
+        Args:
+            text_list: a list of text to be used to train the TfidfVectorizer
+            df_captions: a dataframe of captions
+        Returns:
+            df_vect_captions as a DataFrame
+        '''
     vectorizer = TfidfVectorizer()
     vectorizer.fit(text_list)
     vectorized_captions = []
@@ -95,6 +162,14 @@ def vectorized_captions(text_list,df_captions):
 
 
 def create_vectorized_captions(caption):
+        '''
+        vectorizes the caption, short version, perhaps easier on the memory there.
+
+        Args:
+            Caption: string
+        Returns:
+            tfidf_lem as a list of tokenized text
+        '''
     tokenized_caption = process_caption(caption)
     tfidf_lem = tfidf.fit_transform(tokenized_caption)
     return tfidf_lem
