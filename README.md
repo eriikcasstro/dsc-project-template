@@ -101,6 +101,8 @@ I also followed some people, to make it look more genuine and evade Instagram fr
 
 ![image](https://user-images.githubusercontent.com/36000513/118203232-87e2b900-b453-11eb-8a06-dbf0ca620c38.png)
 
+![image](https://user-images.githubusercontent.com/36000513/118203287-a34dc400-b453-11eb-9151-520137b24c1b.png)
+
 
 We can see that these pictures show the amount of likes on each picture, we have a progressive increase on them. First picture was posted at the beginning of February with 3,218 likes, second picture was posted at the end of February and has 4,885 likes. Last picture was on March and it had 5,755 likes. This means that following the recommendations will help this particular Instagram themed to increase their engage and their followers. 
 To Finalize this project I decided to sell this account, this was done smoothly and at a really good price. 
