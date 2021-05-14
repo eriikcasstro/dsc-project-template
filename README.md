@@ -32,6 +32,7 @@ Looking at each Instagram account individually we can differentiate how their fo
 ![image](https://user-images.githubusercontent.com/36000513/118202734-70ef9700-b452-11eb-822a-ace5f2b0c22d.png)
 
 Exploring London: gets more likes on Fridays, Saturday and Sundays.
+
 ![image](https://user-images.githubusercontent.com/36000513/118202780-86fd5780-b452-11eb-94a2-9016837bbd90.png)
 
 Moving to London: gets more likes on Sundays, Tuesdays and Wednesdays 
