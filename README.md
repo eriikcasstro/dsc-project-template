@@ -1,34 +1,25 @@
-# Module 4 Final Project
+# Capstone
 
 
 ## Introduction
 
-This is my module 4 project which consists of helping a company to make some business decisions based on a time series model, that predicts sales data for two categories
+Increment Instagram influence
 
+This project is probably one of the most ambitious projects I have worked so far. There are different goals, firstly we need to understand what makes a person engage with an Instagram account, this will be specific for the theme I have chosen.
+Secondly, this can be used to help someone already stablished with an Instagram account to further improve their engage with their audience and increment their followers 
+However, the main goal is to use the recommendations given at the end of the study and get an Instagram account as far as possible. 
+There is going to be involved Natural Language Processing, Time Series analysis (as a bench mark) , Machine learning for Classification and finally some AWS using EC2 and Lambda to run the scripts at certain times. 
 
 ## Business Problem
-The data set is a super store dataset. 
-XYZ Superstore has had some trouble in the past two years. It is believed that the issue lies within the dataset provided. XYZ Superstore requires a forecast in sales for furniture and office supplies for the following 12 to 24 months. Reasoning the months that sales are expected to flare up. They also require a list of 3 business recommendations based on the findings. 
+
+- Learn the practices that make an Instagram account popular. 
+- This can benefit anyone that wants to build a presence in this social network platform.
+- The goal of this study is to use the study to create an Instagram page and follow the recommendations  to grow an audience
 
 ## Findings 
-For the office supplies department, during the months of November and December the sales increase dramatically. Therefore, it is recommended:
-- To hire more personnel as this will be needed. 
-- It is also recommended to have enough stock to maintain a high quality service for every customer that desires to buy Office   Supplies. 
-- Sales in Office Supplies increase steadily throughout the years, therefore, maintaining a minmium of employess in this section is recommended
 
-![image](https://user-images.githubusercontent.com/36000513/110372838-b2c12300-8046-11eb-910a-1aef34c6a38a.png)
+![image](https://user-images.githubusercontent.com/36000513/118202660-4ac9f700-b452-11eb-8010-b27925249dd0.png)
 
-Moving to furniture, August and December are the months where sales spike up dramatically. 
-This indicates that: 
-- A minimum personnel is to be maintained throughout these months, perhaps even increasing workforce.
-- Increasing stock this month is also recommended as sales will increase .
-- January to May are quiet months therefore personnel can be redirected to different departments. 
-
-![image](https://user-images.githubusercontent.com/36000513/110372878-bce32180-8046-11eb-950d-3c746310a5d2.png)
-
-The volume of sales per month for both Office Supplies and Furniture, increase steadily over time. However, Office Supplies does trend higher than Furniture.
-
-![image](https://user-images.githubusercontent.com/36000513/110372889-c1a7d580-8046-11eb-8a9c-4bd4ca3d3802.png)
-
-![image](https://user-images.githubusercontent.com/36000513/110372929-cff5f180-8046-11eb-96d6-10eafb21d3bf.png)
-
+Within my data there were four different Instagram accounts, these accounts however, had the same theme. A theme: is a type of content that the Instagram account owner posts about. For example: cars, motorbikes, country. 
+The theme I have chosen was a city : London. 
+Getting the average, we can appreciate that the Instagram users that follow this kind of Instagram pages are more active Friday, Saturday and Sunday. 
