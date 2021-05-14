@@ -55,9 +55,6 @@ We can see that posting on Monday at either 05am, 12pm or 21 gets the account mo
 Friday in the other hand, 13:00 and 14:.00 gets the most likes
 
 
-![image](https://user-images.githubusercontent.com/36000513/118202929-dba0d280-b452-11eb-85ff-8c114972521e.png)
-
-
 ### Caption Exploratory analysis
 ![image](https://user-images.githubusercontent.com/36000513/118202966-f2472980-b452-11eb-8656-8f6416ff5783.png)
 ![image](https://user-images.githubusercontent.com/36000513/118202970-f5421a00-b452-11eb-824b-f4f8640c99b8.png)
