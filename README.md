@@ -57,11 +57,54 @@ Friday in the other hand, 13:00 and 14:.00 gets the most likes
 
 ### Caption Exploratory analysis
 ![image](https://user-images.githubusercontent.com/36000513/118202966-f2472980-b452-11eb-8656-8f6416ff5783.png)
+
 ![image](https://user-images.githubusercontent.com/36000513/118202970-f5421a00-b452-11eb-824b-f4f8640c99b8.png)
 
 I conducted some text classification in the caption of the posts.  This allowed me to generate the best captions for the pictures. 
 We can see the top 30 words used in the captions of the pictures.  For my surprise Hackney is number 30. 
-![image](https://user-images.githubusercontent.com/36000513/118202979-fb37fb00-b452-11eb-916d-a90f269a3ab6.png)
+
+### Time Series Analysis
+
+![image](https://user-images.githubusercontent.com/36000513/118203067-30444d80-b453-11eb-8f7e-65b308be3f65.png)
+
+I created this time series analysis to see where the Instagram pages will be in the future if they kept posting in a similar manner as they have had all this time. 
+We can see that towards the end of the year the account tends to get more likes. We can appreciate that this happens in the predictions. However, the further the predictions are the less reliable it is
+
+
+### Image Classification 
+
+![image](https://user-images.githubusercontent.com/36000513/118203108-47833b00-b453-11eb-8f55-d188726af022.png)
+
+Image classification was done with a totally different dataset, this dataset constituted of images of New York. The machine learning model was trained on this data but it was later used on my main London dataset. 
+I had to manually classify 6.5k following a criteria. The model that performed better was Logistic Regression. We can see that the F1 score and the test Recall are higher than in the other models. Therefore, I decided to create my final model using Logistic Regression. 
+
+## Recommendations
+
+Post heavily on Fridays, Saturdays and Sundays.
+On the weekends, post between 12:00 and 15:00, also between 19:00 and 21:00
+Use top 30 Hashtags found on the post's captions. These are: 
+London, thisislondon, shot, city, ldn, towerbridge, londoneye, Westminster, nottinghill, Instagram, bigben, photography, coventgarden, picadillycircus, stpaulscathedral, Camden, mayfair, theshard, southbank, soho, canarywharf, shreditch, buckinghampalace, trafalgarsquare, skyline, chinatown, leicestersquare, centrallondon,riverthames and hackney 
+
+
+## Results 
+
+![image](https://user-images.githubusercontent.com/36000513/118203166-684b9080-b453-11eb-8b46-137d324d3ec6.png)
+
+![image](https://user-images.githubusercontent.com/36000513/118203173-6b468100-b453-11eb-9a49-ab07c2cc78e0.png)
+
+I have included the results as an extra slide, I created an Instagram page and followed my recommendations. I used the 30 hashtags, posted +4 pictures each day on Friday, Saturday and Sunday. I posted other days as well, but not with the same intensity as on the weekend. 
+I also followed some people, to make it look more genuine and evade Instagram from blocking my account 
+
+![image](https://user-images.githubusercontent.com/36000513/118203209-7dc0ba80-b453-11eb-98cc-f37f4508e2fb.png)
+
+![image](https://user-images.githubusercontent.com/36000513/118203227-84e7c880-b453-11eb-8b82-31772e0ff2f7.png)
+
+![image](https://user-images.githubusercontent.com/36000513/118203232-87e2b900-b453-11eb-8a06-dbf0ca620c38.png)
+
+
+We can see that these pictures show the amount of likes on each picture, we have a progressive increase on them. First picture was posted at the beginning of February with 3,218 likes, second picture was posted at the end of February and has 4,885 likes. Last picture was on March and it had 5,755 likes. This means that following the recommendations will help this particular Instagram themed to increase their engage and their followers. 
+To Finalize this project I decided to sell this account, this was done smoothly and at a really good price. 
+
 
 
 
