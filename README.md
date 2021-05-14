@@ -23,3 +23,23 @@ There is going to be involved Natural Language Processing, Time Series analysis 
 Within my data there were four different Instagram accounts, these accounts however, had the same theme. A theme: is a type of content that the Instagram account owner posts about. For example: cars, motorbikes, country. 
 The theme I have chosen was a city : London. 
 Getting the average, we can appreciate that the Instagram users that follow this kind of Instagram pages are more active Friday, Saturday and Sunday. 
+
+
+
+
+Looking at each Instagram account individually we can differentiate how their followers react to their posts. 
+
+![image](https://user-images.githubusercontent.com/36000513/118202734-70ef9700-b452-11eb-822a-ace5f2b0c22d.png)
+
+Exploring London: gets more likes on Fridays, Saturday and Sundays.
+![image](https://user-images.githubusercontent.com/36000513/118202780-86fd5780-b452-11eb-94a2-9016837bbd90.png)
+
+Moving to London: gets more likes on Sundays, Tuesdays and Wednesdays 
+
+![image](https://user-images.githubusercontent.com/36000513/118202786-89f84800-b452-11eb-9626-716d3ef62646.png)
+
+Londonbeautifullife: on Fridays, Saturdays and Sundays
+
+![image](https://user-images.githubusercontent.com/36000513/118202792-8cf33880-b452-11eb-9e42-5490994e20dd.png)
+
+Lastly, Visit London: Saturday, Thursday and Wednesdays are where the average likes are higher.
